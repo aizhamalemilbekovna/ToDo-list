@@ -1,0 +1,108 @@
+
+body{
+    background: #E5E5E5;
+    color: #fff;
+}
+.App{
+    text-align: center;
+}
+.taskBg{
+    width: 1110px;
+    height: 85px;
+    background: rgba(255, 255, 255, 0.77);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px 140px 10px 15px;
+    text-align: left;
+    font-size: 22px;
+    position: relative;
+    color: #555;
+}
+.taskBg div{
+    display: flex;
+    align-items: center;
+}
+.userImg img{
+    color: #999;
+    margin-top: 6px;
+    border-radius: 8px;
+    display: flex;
+    text-align: center;
+    margin-right: 8px;
+    align-items: center;
+    justify-content: center;
+}
+
+.taskBg .done .taskText{
+text-decoration: line-through;
+    opacity: 0.3;
+}
+.taskBg .taskText{
+    flex: 1;
+    margin-top: 20px;
+}
+.iconsWrap{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 15px;
+    width: auto;
+    display: inline-block;
+}
+
+.taskBg .iconsWrap span{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    cursor: pointer;
+    color: #FEAF00;
+}
+.taskBg .iconsWrap span:hover{
+    color: yellow;
+}
+.mr-20{
+    margin-right: 20px;
+}
+.add-btn{
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    width: 199px;
+    height: 50px;
+    background: #FEAF00;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+.add_btn:hover{
+    background:yellow;
+    color: white;
+}
+hr{
+    height: 0.1px;
+    color: white;
+    background: #ACACAC;
+}
+.task{
+    background: #fff;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.title p{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    color: #ACACAC
+}
+.userImg{
+    border-radius: 5px;
+}
